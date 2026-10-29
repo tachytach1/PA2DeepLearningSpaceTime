@@ -1,0 +1,10 @@
+{
+  "doublemirror": true,
+  "fourrotations": true,
+  "mirrorrotationmirror": true,
+  "mirrormarker": true,
+  "rotatedmarker": true,
+  "speed1": true,
+  "speed2": true,
+  "speed3": true
+}

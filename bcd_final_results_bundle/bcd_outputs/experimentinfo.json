@@ -1,0 +1,27 @@
+{
+  "models": [
+    "modelb",
+    "modelc",
+    "modeld"
+  ],
+  "seeds": [
+    0,
+    1
+  ],
+  "epochs": 30,
+  "batchsize": 32,
+  "optimizer": "Adam",
+  "learningrate": 0.001,
+  "trainingvideos": 8000,
+  "validationvideos": 1000,
+  "testvideos": 1000,
+  "modeld": {
+    "dilation": 2,
+    "parameters": 480784,
+    "reachpixels": 16
+  },
+  "torch": "2.11.0+cu128",
+  "torchvision": "0.26.0+cu128",
+  "device": "cuda",
+  "gpu": "Tesla T4"
+}
